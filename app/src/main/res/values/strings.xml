@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Morse Flash</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="your_morse_code_text">Your morse...</string>
+    <string name="convert_button_text">Convert</string>
+    <string name="convert_convert_text">Convert</string>
+    <string name="convert_pause_text">Pause</string>
+    <string name="warning_morse_code">Invalid Morse code string!</string>
+    <string name="warning_input_string">The input string is not valid!</string>
+    <string name="notify_loop_times_text">Number of repetitions: %1$s</string>
+    <string name="repeat_text">times</string>
+    <string name="notify_finished_flashing">Finished flashing!</string>
+    <string name="notify_finished_flashing_times">Finished flashing %1$s times</string>
+</resources>

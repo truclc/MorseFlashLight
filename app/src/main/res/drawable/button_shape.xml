@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when button is pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="5dp" android:color="#FFFFFF" />
+            <corners android:radius="30dp" />
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+
+            <solid android:color="#C6C6C6" />
+        </shape>
+    </item>
+    <!-- State when button is enabled -->
+    <item android:state_enabled="true">
+        <shape>
+            <stroke android:width="5dp" android:color="#FFFFFF" />
+            <corners android:radius="30dp" />
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+
+            <solid android:color="#888888" />
+        </shape>
+    </item>
+
+    <!-- State when button is disabled -->
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="5dp" android:color="#FFFFFF" />
+            <corners android:radius="30dp" />
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+
+            <solid android:color="#505050" />
+        </shape>
+    </item>
+    <!-- Default state -->
+    <item>
+        <shape>
+            <stroke android:width="5dp" android:color="#FFFFFF" />
+            <corners android:radius="30dp" />
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+
+            <solid android:color="#505050" />
+        </shape>
+    </item>
+</selector>
